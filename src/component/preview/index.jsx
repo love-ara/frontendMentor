@@ -42,10 +42,13 @@ const Preview = () => {
                                      border: "white solid ",
                                  }}/>
                             <div className={style.share}>
-                                <p>SHARE</p>
-                                <img src={facebook} alt="facebook"/>
-                                <img src={twitter} alt="twitter"/>
-                                <img src={pinterest} alt="pinterest"/>
+                                <div className={style.hovered}>
+                                    <p>SHARE</p>
+                                    <img src={facebook} alt="facebook"/>
+                                    <img src={twitter} alt="twitter"/>
+                                    <img src={pinterest} alt="pinterest"/>
+                                </div>
+
                             </div>
                         </div>
 

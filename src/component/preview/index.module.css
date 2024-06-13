@@ -44,6 +44,12 @@
 }
 .share{
     display: none;
+
+}
+.hovered{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
 }
 .shareIcon:hover + .share{
     display: flex;
