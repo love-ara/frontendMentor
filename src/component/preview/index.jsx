@@ -3,6 +3,9 @@ import drawers from '././../../images/drawers.jpg';
 import   avatar     from '././../../images/avatar-michelle.jpg';
 import   icon     from '././../../images/icon-share.svg';
 import {Link} from "react-router-dom";
+import facebook from "../../images/icon-facebook.svg";
+import twitter from "../../images/icon-twitter.svg";
+import pinterest from "../../images/icon-pinterest.svg";
 
 
 const Preview = () => {
@@ -30,7 +33,7 @@ const Preview = () => {
                             <figcaption>Michelle Appleton<br/>28 Jun 2020</figcaption>
                         </figure>
 
-                        <Link to='/share'>
+                        <div>
                             <img src={icon} alt="share" width="12" height="12"
                                  style={{
                                      marginTop: "35px",
@@ -38,7 +41,13 @@ const Preview = () => {
                                      borderRadius: "15px",
                                      border: "white solid ",
                                  }}/>
-                        </Link>
+                            <div style={{display: "none"}}>
+                                <p>SHARE</p>
+                                <img src={facebook} alt="facebook"/>
+                                <img src={twitter} alt="twitter"/>
+                                <img src={pinterest} alt="pinterest"/>
+                            </div>
+                        </div>
 
                     </div>
                 </div>

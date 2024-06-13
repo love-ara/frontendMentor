@@ -1,4 +1,3 @@
-import style from './index.module.css'
 import facebook from './../../images/icon-facebook.svg'
 import twitter from './../../images/icon-twitter.svg'
 import pinterest from './../../images/icon-pinterest.svg'
@@ -6,7 +5,7 @@ import pinterest from './../../images/icon-pinterest.svg'
 const Share = () => {
         return (
             <>
-            <div className={style.share}>
+            <div style={{display: "none"}}>
                 <p>SHARE</p>
                 <img src={facebook} alt="facebook"/>
                 <img src={twitter} alt="twitter"/>
