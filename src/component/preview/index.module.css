@@ -45,7 +45,7 @@
 .share{
     display: none;
 }
-.shareDiv:hover + .share{
+.shareIcon:hover + .share{
     display: flex;
 }
 /*figcaption{*/

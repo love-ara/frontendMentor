@@ -34,7 +34,7 @@ const Preview = () => {
                         </figure>
 
                         <div>
-                            <img src={icon} alt="share" width="12" height="12"
+                            <img className={style.shareIcon} src={icon} alt="share" width="12" height="12"
                                  style={{
                                      marginTop: "35px",
                                      marginLeft: "150px",
@@ -42,13 +42,10 @@ const Preview = () => {
                                      border: "white solid ",
                                  }}/>
                             <div className={style.share}>
-                                <div className={style.shareDiv}>
-                                    <p>SHARE</p>
-                                    <img src={facebook} alt="facebook"/>
-                                    <img src={twitter} alt="twitter"/>
-                                    <img src={pinterest} alt="pinterest"/>
-                                </div>
-
+                                <p>SHARE</p>
+                                <img src={facebook} alt="facebook"/>
+                                <img src={twitter} alt="twitter"/>
+                                <img src={pinterest} alt="pinterest"/>
                             </div>
                         </div>
 
