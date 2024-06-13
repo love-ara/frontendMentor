@@ -42,6 +42,12 @@
     width: 400px;
     height: 350px;
 }
+.share{
+    display: none;
+}
+.shareDiv:hover + .share{
+    display: flex;
+}
 /*figcaption{*/
 /*    margin-bottom: -100px;*/
 /*    justify-content: left;*/
