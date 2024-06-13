@@ -2,6 +2,7 @@ import style from './index.module.css';
 import drawers from '././../../images/drawers.jpg';
 import   avatar     from '././../../images/avatar-michelle.jpg';
 import   icon     from '././../../images/icon-share.svg';
+import {Link} from "react-router-dom";
 
 
 const Preview = () => {
@@ -28,8 +29,17 @@ const Preview = () => {
                                  style={{borderRadius: "50px"}} />
                             <figcaption>Michelle Appleton<br/>28 Jun 2020</figcaption>
                         </figure>
-                        <img src={icon} alt="share" width="12" height="12"
-                             style={{marginTop: "35px", marginLeft: "150px", borderRadius: "15px", border: "white solid ",}}/>
+
+                        <Link to='/share'>
+                            <img src={icon} alt="share" width="12" height="12"
+                                 style={{
+                                     marginTop: "35px",
+                                     marginLeft: "150px",
+                                     borderRadius: "15px",
+                                     border: "white solid ",
+                                 }}/>
+                        </Link>
+
                     </div>
                 </div>
 
